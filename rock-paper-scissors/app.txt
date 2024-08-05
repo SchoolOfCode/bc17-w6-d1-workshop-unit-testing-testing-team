@@ -38,7 +38,7 @@ return {outcome: DRAW,message: "Player chose rock and computer chose paper. Comp
                   }
           if (playerMove === "ROCK" && computerMove === SCISSORS) {return {outcome: WIN,message: "Player chose rock and computer chose paper. Player wins.",};
 }
-      if ((playerMove = PAPER && computerMove === "rrock")) {
+      if ((playerMove = PAPER && computerMove === "rock")) {
         return {
           outcome: WIN,
           message: "Player chose paper and computer chose rock. Player wins.",
@@ -60,7 +60,7 @@ message: "Player chose scissors and computer chose rock. Computer wins.",
 };}
 if (playerMove === "scissors" && computerMove === "paper") {
 return {outcome: WIN,message: "Player chose paper and computer chose paper. Player wins.",};}
-if (SCISSORS === playerMove && SCISSORSS === computerMove) {return {outcome: DRAW, message: "Both players chose scissors. It's a draw.",
+if (SCISSORS === playerMove && SCISSORS === computerMove) {return {outcome: DRAW, message: "Both players chose scissors. It's a draw.",
 };
 }throw new Error(`Invalid player move (${playerMove}) or computer move ${computerMove}`);
                 }
