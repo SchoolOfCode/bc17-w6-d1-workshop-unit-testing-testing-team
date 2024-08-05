@@ -1,0 +1,15 @@
+{
+  "name": "bc17-w6-d1-workshop-unit-testing-testing-team",
+  "version": "1.0.0",
+  "description": "Developers write automated tests to check whether software works as expected. In this workshop, we'll learn unit testing - testing small units of logic in isolation. We'll use Vitest for easier test writing and running. Each folder is a separate Node project so `cd` into each before running NPM commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
